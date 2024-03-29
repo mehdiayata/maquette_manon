@@ -1,0 +1,142 @@
+body {
+    margin: 0px auto;
+}
+
+
+ h2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    margin: 20px 0px 20px 20px;
+}
+
+.texte-presentation {
+
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.texte-presentation p {
+    margin-bottom: 20px;
+
+}
+
+.image-diplome {
+    display: flex;
+    justify-content: center;
+}
+
+.transition {
+    height: 2px;
+    background-color: #ccc;
+    margin: 0 auto 20px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+
+
+footer {
+
+    padding: 30px 0;
+    text-align: center;
+    background-color: #f4cbb3;
+    margin-top: 100px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #666;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #333;
+}
+
+.footer-links {
+    margin-top: 20px;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #333;
+}
+
+
+
+@media screen and (min-width: 600px) {
+    .programme {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+
+        margin: 0 auto;
+
+        margin-bottom: 50px;
+    }
+
+    .contact {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        margin-top :100px;
+    
+    }
+    
+    .contact .contact-form {
+        width: 99%;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    
+}
+
+@media screen and (min-width: 1052px) {
+    .programme {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .contact #texte-contact {
+        border-radius: 10%;
+        padding: 30px;
+
+        box-shadow: 12px 23px 5px -3px rgba(150,0,0,0.1);
+    }
+
+    .contact {
+
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 100px;
+    
+    }
+    
+    .contact .contact-form {
+        width: 99%;
+    }
+    
+}
